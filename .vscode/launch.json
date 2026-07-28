@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "managely",
+      "request": "launch",
+      "type": "dart",
+      "args": ["--fast-start"],
+      "flutterMode": "debug",
+      "evaluateGettersInDebugViews": false,
+      "debugSdkLibraries": false,
+      "debugExternalPackageLibraries": false
+    },
+    {
+      "name": "managely (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "managely (release mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    }
+  ]
+}
